@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Comforter-Regular";
+    src: url("Comforter-Regular.ttf");
+}
+@font-face{
+    font-family: "BebasNeue-Regular";
+    src: url("BebasNeue-Regular.ttf");
+}
+@font-face{
+    font-family: "Prompt-Regular";
+    src: url("Prompt-Regular.ttf");
+}
+
+html{
+    background-color: rgb(136, 12, 12);
+}
+.title{
+    text-align: center;
+    font-family:"Comforter-Regular";
+    font-weight: normal;
+    margin: 0px;
+    font-size: 4em;
+    color: rgb(233, 215, 214);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "BebasNeue-Regular";
+    border-bottom: 1px solid white;
+}
+.main-nav li{
+    margin: 0px;
+    text-align: center;
+    display: inline;
+    padding: 0 2%;
+}
+.main-nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    background-color: rgba(255,255,255, 0.3);
+}
+.HistoryVC {
+    font-size: 1.2em;
+    padding: 0.5em;
+    text-align: justify;
+    font-family: "Prompt-Regular";
+    color: whitesmoke;
+}
+.HistorySA {
+    font-size: 1.2em;
+    padding: 0.5em;
+    text-align: justify;
+    font-family: "Prompt-Regular";
+    color: whitesmoke;
+}
+.HistoryGTA{
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-align:center;
+    font-family: "Prompt-Regular";
+    color: whitesmoke;
+}
+.HistoryGTA .gtalogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 400px;
+}
+.HistoryVC .vclogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+.HistorySA .salogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+.aboutgta{
+    text-align: center;
+    font-family:"BebasNeue-Regular";
+    font-size: 2em;
+    color:rgb(255, 239, 15);
+}
+.vcgta{
+    text-align: center;
+    font-family:"BebasNeue-Regular";
+    font-size: 2em;
+    color:rgb(255, 239, 15);
+}
+.sagta{
+    text-align: center;
+    font-family:"BebasNeue-Regular";
+    font-size: 2em;
+    color:rgb(255, 239, 15);
+}
+footer{
+    font-family:"Comforter-Regular";
+    font-size: 2em;
+    color: rgb(140, 20, 220);
+}
+.HistoryVC .vcbutton{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+.HistorySA .sabutton{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
